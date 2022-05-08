@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Docket.</string>
+    <string name="home_headline">My Tasks</string>
+    <string name="slogan">Never forget things.</string>
+
+    <!--Strings for on board Screen-->
+    <string name="first_slide_title">Schedule Your Tasks</string>
+    <string name="second_slide_title">Mange Your Tasks</string>
+    <string name="third_slide_title">Save Your Time</string>
+    <string name="fourth_slide_title">Free Up Your Storage</string>
+    <string name="fifth_slide_title">Secure Your Data</string>
+    <string name="sixth_slide_title">Friendly user interface</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Yor can easily schedule yor tasks using add task in Home window.</string>
+    <string name="second_slide_desc">Yor can easily mange added tasks, that mens update or delete them by one tap.</string>
+    <string name="third_slide_desc">In this way you can manage your valuable time more precisely and convenient way.</string>
+    <string name="fourth_slide_desc">All your data of this app will be stored on cloud  database instead of your internal storage.</string>
+    <string name="fifth_slide_desc">No more worries about your data it\'s personal or not we guaranteed your data secure.</string>
+    <string name="sixth_slide_desc">Gives an incredible User experience with nice Ui elements.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">SignUp</string>
+    <string name="recover_btn">Recover</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!--Screen names-->
+    <string name="home">My Tasks</string>
+    <string name="sign_out">Log Out</string>
+    <string name="about">About</string>
+    <string name="clear">Clear All</string>
+    <string name="get_start">Get Start</string>
+
+    <!--Welcome Screen Strings-->
+    <string name="w_heading">List\nYour Tasks</string>
+    <string name="w_tag_line">We will help you to schedule your Tasks more easily.</string>
+    <string name="log_in">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide your account\'s email for which you want to rest your password</string>
+    <string name="back_to_signup">Create Account.</string>
+    <string name="back_to_login">Have an Account?</string>
+
+    <!--add task popup screen-->
+    <string name="add_task">Add new task.</string>
+    <string name="task">Task:</string>
+    <string name="Description">Description:</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="save_btn">Save</string>
+
+    <!--update and delete task popup screen-->
+    <string name="update_task">Update Your task.</string>
+    <string name="u_task">Task:</string>
+    <string name="U_Description">Description:</string>
+    <string name="u_enter_task">Enter Task</string>
+    <string name="u_enter_description">Enter Description:</string>
+    <string name="delete_btn">Delete</string>
+    <string name="update_btn">Update</string>
+    <string name="date_and_time">2021 10 06, 07:21</string>
+
+    <!--log out popup-->
+    <string name="exit">Exit</string>
+    <string name="logOut">Do you really want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Start Again popup-->
+    <string name="start">Start Again</string>
+    <string name="startText">Do you really want to start again?</string>
+
+    <!--about activity-->
+    <string name="aboutUs">About Us</string>
+    <string name="ok_btn">OK</string>
+    <string name="app_name_version">Docket. 1.0.0</string>
+    <string name="about_detail">We are third year students of Department of Instrumentation &amp; Automaton, Faculty of Technology, University of Colombo. This is our final project of Mobile Application Development Course.</string>
+    <string name="group_detail">
+        Sahas Uthpala 2018T00243\n
+        Diduni Amarathunga 2018T00179\n
+        Tharindu Weerakoon 2018T00247\n
+        Sheron Deverajan 2018T00192\n
+        Anuja Sathasara 2018T00235\n
+        ruchira Wimukthi 2018T00244\n
+        Yuwanraj Selwaraj 2018T00250\n
+    </string>
+
+</resources>
