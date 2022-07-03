@@ -67,7 +67,10 @@ public class LoginActivity extends AppCompatActivity {
                 // if not login the user to firebase
                 fAuth.signInWithEmailAndPassword(mail, password).addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        checkMailVerification();
+                        Toast.makeText(getApplicationContext(), "Logged In.", Toast.LENGTH_SHORT).show();
+                        finish();
+                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                        //checkMailVerification();
                     } else {
                         Toast.makeText(getApplicationContext(), "Yor haven't internet connection or\nAccount doesn't exit.", Toast.LENGTH_SHORT).show();
                     }

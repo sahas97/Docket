@@ -60,7 +60,7 @@ public class SignUpActivity extends AppCompatActivity {
                     if (task.isSuccessful()) {
                         // if registration is successfully go to the HomeActivity
                         Toast.makeText(getApplicationContext(), "Registration is Successfully", Toast.LENGTH_SHORT).show();
-                        sentEmailVerification();
+                        GotoLogin();
                     } else {
                         // if registration is failed error is showed as toast massage
                         Toast.makeText(SignUpActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
@@ -84,19 +84,19 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     // send email verification method
-    private void sentEmailVerification() {
+    private void GotoLogin() {
 
         FirebaseUser firebaseUser = fAuth.getCurrentUser();
 
         if (firebaseUser != null) {
             firebaseUser.sendEmailVerification().addOnCompleteListener(task -> {
-                Toast.makeText(getApplicationContext(), "verification link is send to yor mail please check your inbox and verify it and Log In again.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Enter your Email and password to login.", Toast.LENGTH_SHORT).show();
                 fAuth.signOut();
                 finish();
                 startActivity(new Intent(SignUpActivity.this, LoginActivity.class));
             });
         } else {
-            Toast.makeText(getApplicationContext(), "Failed to send Verification Email. chek again and try.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Failed to Register. chek again and try.", Toast.LENGTH_SHORT).show();
         }
     }
 }
